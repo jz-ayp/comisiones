@@ -32,6 +32,7 @@
   Ventas totales: 18000
   Comisión (5%): 900.0
   
+  
   Ventas lunes: 5000
   Ventas martes: 4000
   Ventas miércoles: 10000
