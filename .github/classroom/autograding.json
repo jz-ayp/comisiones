@@ -35,7 +35,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
       "input": "2000\r\n2000\r\n2000\r\n10000\r\n4001",
-      "output": "20001.0(\n|.)*1200",
+      "output": "20001(\n|.)*1200",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -44,8 +44,8 @@
       "name": "Test5",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
-      "input": "10.0\r\n25.0\r\n102.5\r\n1100.0\r\n2340.0",
-      "output": "3577.5(\n|.)*178.875",
+      "input": "10.0\r\n20.0\r\n102.5\r\n1100.0\r\n2340.0",
+      "output": "3572.5(\n|.)*178.625",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
