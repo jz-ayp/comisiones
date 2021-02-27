@@ -1,9 +1,9 @@
-# `Nombre del tema`
+# Estructuras de decisión
 
-## Ejercicio: `<Título del ejercicio>`
+## Ejercicio: Comisiones
 
 ## Objetivos
-- Formular una solución efectiva a un problema que incorpora `<recursion>, <user-defined functions>, <iteration>, <conditionals>`.
+- Formular una solución efectiva a un problema que incorpora estructuras de decisión.
 - Interpretar adecuadamente los requisitos de solución de un problema a partir de su descripcion en lenguaje natural.
 - Generar, a partir del análisis del problema:
     - La identificación correcta de las entradas y salidas requeridas, y
@@ -12,20 +12,34 @@
 - Codificar el algoritmo en un programa correcto de Python.
 - Identificar y ejecutar los casos de prueba pertinentes y suficientes para verificar la funcionalidad de la solución propuesta.
 
-- `Recognize, Identify, Select, Analyze, Differentiate, Distinguish, Diagram, Examine, Outline, Subdivide, Understand, Demonstrate, Illustrate, Represent, Interpret, Evaluate, Apply, Assess, Chart, Construct, Develop, Implement, Prepare, Provide, Compute, Contribute, Determine, Establish, Include, Produce, Show, Combine, Design, Make, Plan, Compose, Create, Devise, Formulate, `
-
 ## Instrucciones
 - Elabora el análisis y el algoritmo ***antes de escribir el código***. Utiliza un diagrama de flujo para representar tu algoritmo e ilustrar su lógica.
     - [diagrams.net](https://app.diagrams.net/) es una herramienta gratuita y fácil de usar con la que puedes crear diagramas de flujo. 
     - Puedes ver un ejemplo de como subir diagramas de flujo a GitHub [aquí](https://youtu.be/oy5nhA7QpNI).
 
-- **Diseña un programa para `<...>`**.
+- **Diseña un programa que, dadas las ventas diarias (lunes a viernes) de un vendedor, calcule sus ventas totales de la semana y su comisión, considerando que ésta es del 5% si sus ventas fueron de hasta $20,000 y del 6% si sus ventas superaron dicha cantidad.**
 
 - Codifica tu solución en el archivo [`main.py`](/main.py).
    
-- Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas `<user prompt> <output> <file>`:
+- Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas:
   ```
-  <format example>
+  Ventas lunes: 5000
+  Ventas martes: 0
+  Ventas miércoles: 10000
+  Ventas jueves: 1000
+  Ventas viernes: 2000
+  
+  Ventas totales: 18000
+  Comisión (5%): 900.0
+  
+  Ventas lunes: 5000
+  Ventas martes: 4000
+  Ventas miércoles: 10000
+  Ventas jueves: 1000
+  Ventas viernes: 2000
+  
+  Ventas totales: 22000
+  Comisión (6%): 1320.0
   ```
   
 - Prueba tu programa corriéndolo varias veces con diferentes entradas. Verifica que tu algoritmo produzca las salidas correctas. Pon atención especial a los casos que pudieran ser problemáticos de manejar (casos límite).
@@ -47,8 +61,6 @@
 ## Entrega
 1. Completa este y el resto de los ejercicios y compila, para cada ejercicio, el enunciado, análisis, diagrama de flujo y código, en un informe tal como se describe en los [requisitos para entrega de tareas](https://canvas.iteso.mx/courses/12856/modules/items/418369) en Canvas. También los puedes consultar [aquí](/report/report_example.pdf). No olvides incluir portada y conclusiones.
 
-`1. Complete and submit your program as outlined in this [instructional video](https://youtu.be/SrJ_c8S1_D8).`
-
 2. Agrega el diagrama de flujo a la carpeta [`flowchart`](/flowchart) (puedes ver un [ejemplo de cómo se hace](https://youtu.be/oy5nhA7QpNI)).
 
 3. Agrega el informe en PDF a la carpeta [`report`](/report).
@@ -56,9 +68,8 @@
 ## Casos de prueba de ejemplo
 | Entradas | Salidas |
 |:---------|:--------|
-| `entrada11`<br>`entrada12` | `salida11`<br>`salida12`<br>`salida13` |
-| `entrada21` | `salida21`<br>`salida22` |
-| `entrada31`<br>`entrada32`<br>`entrada33`  | `salida21`<br>`salida22` |
+| `5000`<br>`0`<br>`10000`<br>`1000`<br>`2000` | `18000`<br>`900.0` |
+| `5000`<br>`4000`<br>`10000`<br>`1000`<br>`2000` | `22000`<br>`1320.0` |
 
 ## Rúbrica
 Verifica tu entrega contra esta rúbrica para maximizar tu calificación. Los puntos se indican en porcentaje.
