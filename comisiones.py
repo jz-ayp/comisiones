@@ -1,15 +1,17 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Cálculo de comisiones
 """
 
-# Declaraciones
-CONSTANTE = valor
-
 # Entradas
-entrada = input()
+lu, ma, mi, ju, vi = [float(input(f"Ventas del {dia}: ")) for dia in ("lunes", "martes", "miércoles", "jueves", "viernes")]
 
 # Proceso
-
+total = sum((lu, ma, mi, ju, vi))
+if total <= 20_000:
+    tasa = 0.05
+else:
+    tasa = 0.06
+comision = tasa * total
 
 # Salidas
-print(salida)
+print("Comisión:", comision)
