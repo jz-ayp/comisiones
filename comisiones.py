@@ -1,5 +1,5 @@
 """
-Cálculo de comisiones
+Cálculo de total de ventas y comisiones.
 """
 
 # Entradas
@@ -14,4 +14,5 @@ else:
 comision = tasa * total
 
 # Salidas
+print("Total de ventas:", total)
 print("Comisión:", comision)
